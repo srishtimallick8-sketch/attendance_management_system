@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Attendance</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="attendance-box">
+
+        <h2>Mark Attendance</h2>
+
+
+        <label>
+
+            Select Class Date:
+
+        </label>
+
+        <input
+        type="date"
+        id="classDate"
+        required>
+
+        <br><br>
+
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Student Name</th>
+
+                    <th>Status</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody id="attendanceBody">
+
+            </tbody>
+
+        </table>
+
+
+        <br>
+
+
+        <button onclick="saveAttendance()">
+
+            Save Attendance
+
+        </button>
+
+
+        <br><br>
+
+
+        <a href="dashboard.html">
+
+            <button>
+
+                Back to Dashboard
+
+            </button>
+
+        </a>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
